@@ -1,0 +1,17 @@
+
+@mixin itemTheme($color, $bgColor) {
+    color: $color;
+    background-color: $bgColor;
+  }
+
+@mixin hoverForeground($colorCode){
+    color: mix($colorCode, #222222, 40);
+}
+
+@mixin hoverBackground($colorCode){
+    background-color: mix($colorCode, #222222, 40);
+}
+
+@mixin lighten($colorCode){
+    background-color: lighten($color: $colorCode, $amount: 15);
+}

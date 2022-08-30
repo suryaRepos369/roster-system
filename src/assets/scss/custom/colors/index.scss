@@ -1,0 +1,31 @@
+//theme-color - default
+
+:root {
+  --bc-primary: #ec2227;
+}
+
+$bc-primary: var(--bc-primary);
+$secondary: #faa74a;
+$danger: #ee3524;
+$success: #32a071;
+$highlight1: #b2aba5;
+$highlight2: #6f6763;
+$brandColor1: #002a54;
+$brandColor2: #611912;
+$brandColor3: #8095aa;
+$brandColor4: #d90d4a;
+$grey: #ebebeb;
+$light: #e5e5e5;
+$dark: #000000;
+
+//! other temporary colors, should be removed, contact sanjana / harley
+$white: white;
+$grey1: #848484;
+$grey2: #a6a6a6;
+$grey3: #c4c4c4;
+$grey4: #e0e0e0;
+$grey5: #fcfcfc;
+$grey6: #f7f7f7;
+$grey7: #e8e9ea;
+
+

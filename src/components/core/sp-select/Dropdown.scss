@@ -1,0 +1,23 @@
+.sp-option-items {
+  transition: background 0ms !important;
+  font-size: 14px !important;
+  font-family: "DM Sans" !important;
+  padding: 5px !important;
+  background: #e5e5e6 !important;
+  color: #000 !important;
+
+  &:hover {
+    transition-delay: 0ms;
+    background: #ff6367 !important;
+    color: #fff !important;
+  }
+
+  &.sp-select__option--is-focused {
+    background: none;
+  }
+
+  &.sp-select__option--is-selected {
+    background: #ec2227 !important;
+    color: #fff !important;
+  }
+}

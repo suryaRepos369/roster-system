@@ -1,0 +1,56 @@
+// timeline style
+.sp-timeline {
+  position: relative;
+  padding-left: 30px;
+  margin: 0;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: red;
+  }
+
+  .timeline-container {
+    position: relative;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    .timeline-ring-div {
+      position: absolute;
+      top: -20;
+      left: -29px;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .timeline-ring {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid red;
+      background-color: white;
+    }
+  }
+
+  // .height-opened {
+  //   min-height: 100px;
+  //   transition: height 2s ease;
+  //   overflow-y: auto;
+  // }
+
+  // .height-closed {
+  //   min-height: 53px;
+  //   // overflow: hidden;
+  //   transition: height 2s ease;
+  // }
+  
+}

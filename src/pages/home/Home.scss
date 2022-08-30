@@ -1,0 +1,20 @@
+.box-home {
+    height: 216px;
+    width: 235px;
+    border-radius: 8px;
+    &-background {
+        border-radius: 8px;
+       // background: rgba(0, 0, 0, 0.6);
+         background: rgba(236, 34, 107, 0.2) ;
+    }
+    &-disable {
+        border-radius: 8px;
+         background: rgba(217, 13, 74, 0.77) ;
+       // background: rgba(132, 132, 132, 0.7);
+    }
+    &-divide {
+        height: 2px;
+        width: 60px;
+    }
+}
+

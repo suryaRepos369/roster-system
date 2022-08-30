@@ -1,0 +1,44 @@
+// mouse cursor
+.cursor-default {
+    cursor: default;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .cursor-not-allowed {
+    cursor: not-allowed;
+  }
+  
+  // shadow
+  .box-shadow {
+    box-shadow: 0px 4px 4px 0px #0000001a;
+  }
+  
+  // others
+  .object-fit {
+    object-fit: cover;
+  }
+  
+  .underline-hover:hover {
+    text-decoration: underline;
+  }
+  
+  .dotted-border {
+    border: dotted 2px gray;
+  }
+  
+  .divide-menu {
+    height: 1px;
+  }  
+
+  @media screen and (max-width: 768px) {
+    .logo {
+      height: 60px;
+    }
+   
+   
+  }
+  
+  

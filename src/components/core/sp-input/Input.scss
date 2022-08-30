@@ -1,0 +1,32 @@
+.remove-input-focus {
+    position: relative;
+    input {
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
+    .default-input{
+        background-color: #0000000d;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: transparent;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        width: 100%;
+      }
+
+      input[data-type='file-trigger']{
+        cursor: pointer;
+    }
+}
+
+.input-back{
+    background-color: #0000000d;
+}
+
+.input-height{
+    height: 32px;
+}
+

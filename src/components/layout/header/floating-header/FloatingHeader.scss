@@ -1,0 +1,30 @@
+.floating-header-container {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 999999999;
+  top: 0px;
+  right: -420px;
+  background: rgba(236, 34, 39, 0.9);
+  user-select: none;
+
+  .floating-header-action {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.mh-vh-80 {
+  height: 80vh;
+}
+
+@media screen and (max-width: 420px) {
+  .floating-header-container {
+    width: 100%;
+  }
+}
